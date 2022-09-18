@@ -12,7 +12,6 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import { WebdevComponent } from './webdev/webdev.component';
 import { CvComponent } from './cv/cv.component';
-import { ShowcaseComponent } from './showcase/showcase.component';
 
 
 
@@ -22,7 +21,6 @@ import { ShowcaseComponent } from './showcase/showcase.component';
     HeaderComponent,
     WebdevComponent,
     CvComponent,
-    ShowcaseComponent
   ],
   imports: [
     BrowserModule,
