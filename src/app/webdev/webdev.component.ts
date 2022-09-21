@@ -46,7 +46,7 @@ export class WebdevComponent implements OnInit {
   }
 
   scrollToElement($element :any): void {
-    console.log($element);
+   // console.log($element);
     $element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
 
