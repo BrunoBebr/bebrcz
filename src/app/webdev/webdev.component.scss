@@ -17,7 +17,7 @@ mat-grid-list {
   }
 .bigtxt {
     font-family: 'Josefin Sans', sans-serif;
-     font-size: clamp(10px, 2vw, 36px);
+    font-size: calc(15px + 1vw);
      color: rgb(85, 85, 85);
      position: absolute;
      top: 40%;
@@ -26,7 +26,7 @@ mat-grid-list {
 }
 .chbigtxt {
     font-family: 'Josefin Sans', sans-serif;
-     font-size: 4vw;
+    font-size: calc(40px + 2vw);
      position: absolute;
      top: 30%;
      left: 5%;
@@ -125,14 +125,14 @@ mat-grid-list {
 .about {
         text-align: center;
         font-family: 'Josefin Sans', sans-serif;
-     font-size: 4vw;
+        font-size: calc(40px + 1vw);
      padding: 5%;
 }
 
 .about-sml {
         text-align: center;
         font-family: 'Josefin Sans', sans-serif;
-     font-size: 1.5vw;
+        font-size: calc(15px + .5vw);
      padding-bottom: 5%;
      line-height: 35px;
 }
@@ -144,7 +144,7 @@ mat-grid-list {
 .sliders {
         text-align: center;
         font-family: 'Josefin Sans', sans-serif;
-        font-size: 4vw;
+        font-size: calc(20px + 2vw);
         padding: 5%;   
         line-height: normal;
 }
@@ -152,7 +152,7 @@ mat-grid-list {
 .sliders-sml {
         text-align: center;
         font-family: 'Josefin Sans', sans-serif;
-        font-size: 1.5vw;
+        font-size: calc(15px + .5vw);
         line-height: 150%;
         padding: 5%;   
 }
